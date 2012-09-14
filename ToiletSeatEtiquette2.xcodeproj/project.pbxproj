@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD19AE6C15FBEF5500B90479 /* tseLog.m in Sources */ = {isa = PBXBuildFile; fileRef = CD19AE6B15FBEF5500B90479 /* tseLog.m */; };
+		CD19AE7015FBEFE500B90479 /* tseLogItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CD19AE6F15FBEFE500B90479 /* tseLogItem.m */; };
+		CDA10FC415FADD8A009D4FFB /* tseSimulation.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA10FC315FADD8A009D4FFB /* tseSimulation.m */; };
 		CDB2598A15FAD608005C28E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB2598915FAD608005C28E8 /* UIKit.framework */; };
 		CDB2598C15FAD608005C28E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB2598B15FAD608005C28E8 /* Foundation.framework */; };
 		CDB2598E15FAD608005C28E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB2598D15FAD608005C28E8 /* CoreGraphics.framework */; };
@@ -15,9 +18,18 @@
 		CDB2599A15FAD608005C28E8 /* tseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB2599915FAD608005C28E8 /* tseAppDelegate.m */; };
 		CDB2599D15FAD608005C28E8 /* tseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB2599C15FAD608005C28E8 /* tseViewController.m */; };
 		CDB259A015FAD608005C28E8 /* tseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDB2599E15FAD608005C28E8 /* tseViewController.xib */; };
+		CDB259A815FAD624005C28E8 /* tsePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB259A715FAD624005C28E8 /* tsePerson.m */; };
+		CDB259AE15FAD68B005C28E8 /* tseToilet.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB259AD15FAD68B005C28E8 /* tseToilet.m */; };
+		CDEB78E01602B9FB006A628A /* tseNSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEB78DF1602B9FB006A628A /* tseNSMutableArray+Shuffling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD19AE6A15FBEF5500B90479 /* tseLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tseLog.h; sourceTree = "<group>"; };
+		CD19AE6B15FBEF5500B90479 /* tseLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tseLog.m; sourceTree = "<group>"; };
+		CD19AE6E15FBEFE500B90479 /* tseLogItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tseLogItem.h; sourceTree = "<group>"; };
+		CD19AE6F15FBEFE500B90479 /* tseLogItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tseLogItem.m; sourceTree = "<group>"; };
+		CDA10FC215FADD8A009D4FFB /* tseSimulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tseSimulation.h; path = ToiletSeatEtiquette2/tseSimulation.h; sourceTree = "<group>"; };
+		CDA10FC315FADD8A009D4FFB /* tseSimulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = tseSimulation.m; path = ToiletSeatEtiquette2/tseSimulation.m; sourceTree = "<group>"; };
 		CDB2598515FAD608005C28E8 /* ToiletSeatEtiquette2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToiletSeatEtiquette2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB2598915FAD608005C28E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CDB2598B15FAD608005C28E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,6 +43,12 @@
 		CDB2599B15FAD608005C28E8 /* tseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tseViewController.h; sourceTree = "<group>"; };
 		CDB2599C15FAD608005C28E8 /* tseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tseViewController.m; sourceTree = "<group>"; };
 		CDB2599F15FAD608005C28E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/tseViewController.xib; sourceTree = "<group>"; };
+		CDB259A615FAD624005C28E8 /* tsePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tsePerson.h; sourceTree = "<group>"; };
+		CDB259A715FAD624005C28E8 /* tsePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tsePerson.m; sourceTree = "<group>"; };
+		CDB259AC15FAD68B005C28E8 /* tseToilet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tseToilet.h; sourceTree = "<group>"; };
+		CDB259AD15FAD68B005C28E8 /* tseToilet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tseToilet.m; sourceTree = "<group>"; };
+		CDEB78DE1602B9FB006A628A /* tseNSMutableArray+Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "tseNSMutableArray+Shuffling.h"; sourceTree = "<group>"; };
+		CDEB78DF1602B9FB006A628A /* tseNSMutableArray+Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "tseNSMutableArray+Shuffling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +68,18 @@
 		CDB2597A15FAD608005C28E8 = {
 			isa = PBXGroup;
 			children = (
+				CDB259A615FAD624005C28E8 /* tsePerson.h */,
+				CDB259A715FAD624005C28E8 /* tsePerson.m */,
+				CDB259AC15FAD68B005C28E8 /* tseToilet.h */,
+				CDB259AD15FAD68B005C28E8 /* tseToilet.m */,
+				CDA10FC215FADD8A009D4FFB /* tseSimulation.h */,
+				CDA10FC315FADD8A009D4FFB /* tseSimulation.m */,
+				CDEB78DE1602B9FB006A628A /* tseNSMutableArray+Shuffling.h */,
+				CDEB78DF1602B9FB006A628A /* tseNSMutableArray+Shuffling.m */,
+				CD19AE6A15FBEF5500B90479 /* tseLog.h */,
+				CD19AE6B15FBEF5500B90479 /* tseLog.m */,
+				CD19AE6E15FBEFE500B90479 /* tseLogItem.h */,
+				CD19AE6F15FBEFE500B90479 /* tseLogItem.m */,
 				CDB2598F15FAD608005C28E8 /* ToiletSeatEtiquette2 */,
 				CDB2598815FAD608005C28E8 /* Frameworks */,
 				CDB2598615FAD608005C28E8 /* Products */,
@@ -165,6 +195,12 @@
 				CDB2599615FAD608005C28E8 /* main.m in Sources */,
 				CDB2599A15FAD608005C28E8 /* tseAppDelegate.m in Sources */,
 				CDB2599D15FAD608005C28E8 /* tseViewController.m in Sources */,
+				CDB259A815FAD624005C28E8 /* tsePerson.m in Sources */,
+				CDB259AE15FAD68B005C28E8 /* tseToilet.m in Sources */,
+				CDA10FC415FADD8A009D4FFB /* tseSimulation.m in Sources */,
+				CD19AE6C15FBEF5500B90479 /* tseLog.m in Sources */,
+				CD19AE7015FBEFE500B90479 /* tseLogItem.m in Sources */,
+				CDEB78E01602B9FB006A628A /* tseNSMutableArray+Shuffling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +316,7 @@
 				CDB259A515FAD608005C28E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
